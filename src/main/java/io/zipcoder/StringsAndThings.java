@@ -27,10 +27,6 @@ public class StringsAndThings {
                if(!Character.isLetter(chars[i + 1])){
                    counter = counter + 1;
                }
-
-
-
-
            }
         }
         return counter;
@@ -46,7 +42,9 @@ public class StringsAndThings {
      *           removeString("Hello there", "x") // Should return "Hello there"
      */
     public String removeString(String base, String remove){
-        return null;
+
+            return base.replaceAll(remove, "");
+
     }
 
     /**
